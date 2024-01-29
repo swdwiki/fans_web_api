@@ -1,0 +1,25 @@
+export const defaultConfig = {
+  database: {
+    mysql_server_host: '',
+    mysql_server_port: 3306,
+    mysql_server_username: '',
+    mysql_server_password: '',
+    mysql_server_database: '',
+  },
+  redis: {
+    redis_server_host: '',
+    redis_server_port: 6379,
+    redis_server_db: 1,
+    redis_server_password: '',
+  },
+  nodemailer_host: '',
+  nodemailer_port: 465,
+  nodemailer_auth_user: '',
+  nodemailer_auth_pass: '',
+  jwt_secret: '',
+  jwt_access_token_expires_time: '',
+  jwt_refresh_token_expires_time: '',
+  nest_server_port: 5520,
+  baseUrl: ``,
+  websiteUrl: ``,
+};
